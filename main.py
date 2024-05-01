@@ -26,3 +26,21 @@ if __name__ == "__main__":
   print(s1)
   print(s2)
   print(s)
+
+  # Set intersection() method vs set intersection operator (&)
+
+  numbers = {1, 2, 3}
+  scores = [2, 3, 4]
+  print(numbers)
+  print(scores)
+
+  numbers = numbers.intersection(scores)
+  print(numbers)
+
+  numbers = {1, 2, 3}
+  scores = [2, 3, 4]
+  print(numbers)
+  print(scores)
+
+  # numbers = numbers.intersection(scores)
+  # TypeError
